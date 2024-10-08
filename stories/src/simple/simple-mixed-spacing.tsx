@@ -6,6 +6,7 @@ import {
   DraggableStyle,
   DropResult,
 } from '@rbalazsi/dnd-shadow-dom';
+import { ShadowRootContext } from '../shadow-root/inside-shadow-root';
 
 // fake data generator
 const getItems = (count: number) =>
@@ -63,7 +64,9 @@ const getItemStyle = (
   ...draggableStyle,
 });
 
-interface AppProps {}
+interface AppProps {
+  stylesRoot?: HTMLElement | null;
+}
 
 interface Item {
   id: string;
@@ -104,7 +107,7 @@ export default class App extends Component<AppProps, AppState> {
   // But in this example everything is just done in one place for simplicity
   render() {
     return (
-      <DragDropContext onDragEnd={this.onDragEnd}>
+      <DragDropContext onDragEnd={this.onDragEnd} stylesInsertionPoint={this.props.stylesRoot}>
         <Droppable droppableId="droppable">
           {(droppableProvided) => (
             <div

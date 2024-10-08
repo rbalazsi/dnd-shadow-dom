@@ -33,12 +33,11 @@ const getItemStyle = (
   isDragging: boolean,
   draggableStyle: DraggableStyle = {},
 ) => ({
+  display: 'block',
   // some basic styles to make the items look a bit nicer
   userSelect: 'none' as const,
   padding: grid * 2,
   margin: `0 0 ${grid}px 0`,
-  border: '5px solid yellow',
-  height: 30,
 
   // change background colour if dragging
   background: isDragging ? 'lightgreen' : 'red',
@@ -47,17 +46,39 @@ const getItemStyle = (
   ...draggableStyle,
 });
 
-const getListStyle = (isDraggingOver: boolean, overflow?: string) => ({
+const getListStyle = (isDraggingOver: boolean) => ({
   background: isDraggingOver ? 'lightblue' : 'grey',
   padding: grid,
-  border: '5px solid pink',
   width: 250,
-  maxHeight: '50vh',
-  overflow,
 });
 
+class SomeCustomElement extends HTMLElement {
+  childComponent;
+
+  constructor() {
+    super();
+    const root = this.attachShadow({ mode: 'open' });
+    this.childComponent = document.createElement('div');
+    root.appendChild(this.childComponent);
+  }
+
+  connectedCallback() {
+    this.childComponent.textContent = this.getAttribute('content');
+  }
+}
+
+customElements.define('some-custom-element', SomeCustomElement);
+
+declare global {
+  module JSX {
+    interface IntrinsicElements {
+      // TODO... any
+      "some-custom-element": any
+    }
+  }
+}
+
 interface AppProps {
-  overflow?: string;
   stylesRoot?: HTMLElement | null;
 }
 
@@ -71,10 +92,6 @@ interface AppState {
 }
 
 export default class App extends Component<AppProps, AppState> {
-  static defaultProps = {
-    overflow: 'auto',
-  };
-
   constructor(props: AppProps) {
     super(props);
     this.state = {
@@ -109,19 +126,12 @@ export default class App extends Component<AppProps, AppState> {
           {(droppableProvided, droppableSnapshot) => (
             <div
               ref={droppableProvided.innerRef}
-              style={getListStyle(
-                droppableSnapshot.isDraggingOver,
-                this.props.overflow,
-              )}
-              onScroll={(e) =>
-                // eslint-disable-next-line no-console
-                console.log('current scrollTop', e.currentTarget.scrollTop)
-              }
+              style={getListStyle(droppableSnapshot.isDraggingOver)}
             >
               {this.state.items.map((item, index) => (
                 <Draggable key={item.id} draggableId={item.id} index={index}>
                   {(draggableProvided, draggableSnapshot) => (
-                    <div
+                    <some-custom-element
                       ref={draggableProvided.innerRef}
                       {...draggableProvided.draggableProps}
                       {...draggableProvided.dragHandleProps}
@@ -131,7 +141,7 @@ export default class App extends Component<AppProps, AppState> {
                       )}
                     >
                       {item.content}
-                    </div>
+                    </some-custom-element>
                   )}
                 </Draggable>
               ))}
