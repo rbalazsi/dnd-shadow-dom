@@ -1,7 +1,7 @@
 import React, { CSSProperties, ReactElement, useState } from 'react';
 import styled from '@emotion/styled';
-import type { DropResult } from '@hello-pangea/dnd';
-import { DragDropContext } from '@hello-pangea/dnd';
+import type { DropResult } from '@rbalazsi/dnd-shadow-dom';
+import { DragDropContext } from '@rbalazsi/dnd-shadow-dom';
 import type { Quote } from '../types';
 import QuoteList from '../primatives/quote-list';
 import reorder from '../reorder';

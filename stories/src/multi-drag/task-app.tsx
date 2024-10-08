@@ -1,11 +1,11 @@
 import React, { Component, ReactElement } from 'react';
 import styled from '@emotion/styled';
-import { DragDropContext } from '@hello-pangea/dnd';
+import { DragDropContext } from '@rbalazsi/dnd-shadow-dom';
 import type {
   DragStart,
   DropResult,
   DraggableLocation,
-} from '@hello-pangea/dnd';
+} from '@rbalazsi/dnd-shadow-dom';
 import initial from './data';
 import Column from './column';
 import type { Result as ReorderResult } from './utils';

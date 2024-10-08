@@ -4,11 +4,11 @@
 
 ## Supported Versions
 
-We support only the latest version of @hello-pangea/dnd. Please ensure you are using the most recent release to benefit from the latest security updates.
+We support only the latest version of @rbalazsi/dnd-shadow-dom. Please ensure you are using the most recent release to benefit from the latest security updates.
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability in @hello-pangea/dnd, we urge you to report it responsibly by sending an email to Gab at security@100terres.com.
+If you discover a security vulnerability in @rbalazsi/dnd-shadow-dom, we urge you to report it responsibly by sending an email to Gab at security@100terres.com.
 
 ## Public PGP Key
 

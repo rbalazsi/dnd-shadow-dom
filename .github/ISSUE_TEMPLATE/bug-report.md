@@ -16,7 +16,7 @@ https://github.com/hello-pangea/dnd/blob/main/docs/guides/common-setup-issues.md
 In development builds we log warnings to the console for common setup issues. Please have a look to see if it can give you information in overcoming your issue
 
 ## Are you new to rfd?
-If you are new to `@hello-pangea/dnd` we recommend taking at look at our getting started course: https://egghead.io/courses/beautiful-and-accessible-drag-and-drop-with-react-beautiful-dnd (This is using [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd))
+If you are new to `@rbalazsi/dnd-shadow-dom` we recommend taking at look at our getting started course: https://egghead.io/courses/beautiful-and-accessible-drag-and-drop-with-react-beautiful-dnd (This is using [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd))
 
 It will give you a good base understanding of how everything fits together. This can often be the best help in overcoming your issue.
 
@@ -48,7 +48,7 @@ https://github.com/hello-pangea/dnd/issues?utf8=%E2%9C%93&q=is%3Aopen%20is%3Aclo
   Ensure that it satisfies our peer dependency version - see our package.json. (Currently it is "^16.8.0")
 -->
 
-### What version of `@hello-pangea/dnd` are you running?
+### What version of `@rbalazsi/dnd-shadow-dom` are you running?
 
 <!--
   We will only look into issues that are effecting the latest version. At this stage we are not releasing fixes for previous releases

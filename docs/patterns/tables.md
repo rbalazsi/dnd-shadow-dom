@@ -5,9 +5,9 @@
 | Clean way of displaying tabular data             | Browser                |
 | Great browser support                            | Browser                |
 | Can copy paste the table into other applications | Browser                |
-| Can reorder items in the table!                  | `@hello-pangea/dnd` 😎 |
+| Can reorder items in the table!                  | `@rbalazsi/dnd-shadow-dom` 😎 |
 
-`@hello-pangea/dnd` requires no additional wrapping elements to create `<Draggable />` and `<Droppable />` components. Therefore it is possible to have a `<table>` that has valid HTML as well as supporting drag and drop.
+`@rbalazsi/dnd-shadow-dom` requires no additional wrapping elements to create `<Draggable />` and `<Droppable />` components. Therefore it is possible to have a `<table>` that has valid HTML as well as supporting drag and drop.
 
 > We have not found a way to achieve semantic reordering of table columns at this stage. This is because there is no one element that represents a table column - rather, a column is a result of cell placements within repeating rows. As such as cannot wrap a `<Draggable />` around a 'column' in order to make it draggable. PR's to this guide are welcome if you find a working approach!
 

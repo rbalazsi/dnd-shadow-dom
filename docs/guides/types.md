@@ -209,7 +209,7 @@ interface DropAnimation {
 The types are exported as part of the module so using them is as simple as:
 
 ```js
-import type { DroppableProvided } from '@hello-pangea/dnd';
+import type { DroppableProvided } from '@rbalazsi/dnd-shadow-dom';
 ```
 
 [← Back to documentation](/README.md#documentation-)

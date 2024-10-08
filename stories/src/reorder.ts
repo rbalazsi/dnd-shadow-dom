@@ -1,4 +1,4 @@
-import type { DraggableLocation } from '@hello-pangea/dnd';
+import type { DraggableLocation } from '@rbalazsi/dnd-shadow-dom';
 import type { Quote, QuoteMap } from './types';
 
 // a little function to help us with reordering the result

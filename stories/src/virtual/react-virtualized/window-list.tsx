@@ -2,7 +2,7 @@ import React, { CSSProperties, ReactElement, useState } from 'react';
 import ReactDOM from 'react-dom';
 import 'react-virtualized/styles.css';
 import { WindowScroller, List } from 'react-virtualized';
-import { Droppable, Draggable, DragDropContext } from '@hello-pangea/dnd';
+import { Droppable, Draggable, DragDropContext } from '@rbalazsi/dnd-shadow-dom';
 
 import type {
   DroppableProvided,
@@ -10,7 +10,7 @@ import type {
   DraggableStateSnapshot,
   DraggableRubric,
   DropResult,
-} from '@hello-pangea/dnd';
+} from '@rbalazsi/dnd-shadow-dom';
 import type { Quote } from '../../types';
 
 import QuoteItem from '../../primatives/quote-item';

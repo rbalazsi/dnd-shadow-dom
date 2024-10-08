@@ -1,13 +1,13 @@
 import React, { Component, ReactElement } from 'react';
 import styled from '@emotion/styled';
 import { colors } from '@atlaskit/theme';
-import { Droppable, Draggable } from '@hello-pangea/dnd';
+import { Droppable, Draggable } from '@rbalazsi/dnd-shadow-dom';
 import type {
   DroppableProvided,
   DroppableStateSnapshot,
   DraggableProvided,
   DraggableStateSnapshot,
-} from '@hello-pangea/dnd';
+} from '@rbalazsi/dnd-shadow-dom';
 import Author from './author-item';
 import { grid } from '../constants';
 import type { Quote } from '../types';

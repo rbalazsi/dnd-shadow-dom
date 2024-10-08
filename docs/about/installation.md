@@ -1,33 +1,33 @@
 # Installation
 
-[![module formats: umd, cjs, and esm](https://img.shields.io/badge/module%20formats-umd%2c%20cjs%2c%20esm-green.svg?style=flat)](https://unpkg.com/@hello-pangea/dnd/dist/)
+[![module formats: umd, cjs, and esm](https://img.shields.io/badge/module%20formats-umd%2c%20cjs%2c%20esm-green.svg?style=flat)](https://unpkg.com/@rbalazsi/dnd-shadow-dom/dist/)
 
 ## General
 
-1. Add the `@hello-pangea/dnd` package
+1. Add the `@rbalazsi/dnd-shadow-dom` package
 
 ```bash
 # npm
-npm install @hello-pangea/dnd --save
+npm install @rbalazsi/dnd-shadow-dom --save
 
 # pnpm
-pnpm add @hello-pangea/dnd
+pnpm add @rbalazsi/dnd-shadow-dom
 
 # yarn
-yarn add @hello-pangea/dnd
+yarn add @rbalazsi/dnd-shadow-dom
 ```
 
 2. Use the package
 
 ```js
-import { DragDropContext } from '@hello-pangea/dnd';
+import { DragDropContext } from '@rbalazsi/dnd-shadow-dom';
 ```
 
 3. Profit 🕺
 
 ## `React` environment
 
-In order to use `@hello-pangea/dnd` you will probably want to have a `React` environment set up.
+In order to use `@rbalazsi/dnd-shadow-dom` you will probably want to have a `React` environment set up.
 
 - [Add react to a website](https://reactjs.org/docs/add-react-to-a-website.html) - official `React` docs
 - [Setup a react environment with `create-react-app`](https://egghead.io/lessons/react-set-up-a-react-environment-with-create-react-app) - from our [free getting started course](https://egghead.io/courses/beautiful-and-accessible-drag-and-drop-with-react-beautiful-dnd) (This is using [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd))
@@ -41,13 +41,13 @@ A [universal module definition](https://github.com/umdjs/umd) bundle is publishe
 
 These bundles list `react` as an external which needs to be provided. This is done to reduce the size of the bundle and prevent consumers from loading `react` multiple times. You can provide `react` through your module system or simply by having `react` on the `window`.
 
-You can use the UMD to run `@hello-pangea/dnd` directly in the browser.
+You can use the UMD to run `@rbalazsi/dnd-shadow-dom` directly in the browser.
 
 ```html
 <!-- peer dependency -->
 <script src="https://unpkg.com/react@16.3.1/umd/react.development.js"></script>
 <!-- lib (change x.x.x for the version you would like) -->
-<script src="https://unpkg.com/@hello-pangea/dnd@x.x.x/dist/dnd.js"></script>
+<script src="https://unpkg.com/@rbalazsi/dnd-shadow-dom@x.x.x/dist/dnd.js"></script>
 <!-- needed to mount your react app -->
 <script src="https://unpkg.com/react-dom@16.3.1/umd/react-dom.development.js"></script>
 
@@ -69,6 +69,6 @@ There is also an [example codepen](https://codepen.io/alexreardon/project/editor
 
 ## [`ClojureScript`](https://clojurescript.org/)
 
-You can consume `@hello-pangea/dnd` from within `ClojureScript` using [CLJSJS](https://cljsjs.github.io/)!
+You can consume `@rbalazsi/dnd-shadow-dom` from within `ClojureScript` using [CLJSJS](https://cljsjs.github.io/)!
 
 [← Back to documentation](/README.md#documentation-)

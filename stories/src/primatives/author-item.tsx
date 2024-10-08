@@ -4,7 +4,7 @@ import { colors } from '@atlaskit/theme';
 import type {
   DraggableProvided,
   DraggableStateSnapshot,
-} from '@hello-pangea/dnd';
+} from '@rbalazsi/dnd-shadow-dom';
 import { grid } from '../constants';
 import type { Author } from '../types';
 

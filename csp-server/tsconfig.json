@@ -4,7 +4,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@hello-pangea/dnd": ["../src/index.ts"]
+      "@rbalazsi/dnd-shadow-dom": ["../src/index.ts"]
     }
   }
 }

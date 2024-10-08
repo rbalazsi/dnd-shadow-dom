@@ -1,8 +1,8 @@
 import React, { ReactElement, useState } from 'react';
 import styled from '@emotion/styled';
 import { colors } from '@atlaskit/theme';
-import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd';
-import type { DropResult } from '@hello-pangea/dnd';
+import { DragDropContext, Droppable, Draggable } from '@rbalazsi/dnd-shadow-dom';
+import type { DropResult } from '@rbalazsi/dnd-shadow-dom';
 import type { Task } from '../types';
 import { grid } from '../constants';
 import reorder, { moveBetween } from '../reorder';

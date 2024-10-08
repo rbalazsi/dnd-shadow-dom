@@ -289,7 +289,7 @@
 ### ⚠ BREAKING CHANGES
 
 * **rename:** The project has a new home! From react-forked organization to
-hello-pangea. You should install @hello-pangea/dnd package instead.
+hello-pangea. You should install @rbalazsi/dnd-shadow-dom package instead.
 
 ### Docs 📃
 
@@ -298,7 +298,7 @@ hello-pangea. You should install @hello-pangea/dnd package instead.
 
 ### Code Refactoring 🖌
 
-* **rename:** project from @react-forked/dnd to @hello-pangea/dnd ([146b204](https://github.com/hello-pangea/dnd/commit/146b204161ca0de8ef7f966f9e2015c1f766a403))
+* **rename:** project from @react-forked/dnd to @rbalazsi/dnd-shadow-dom ([146b204](https://github.com/hello-pangea/dnd/commit/146b204161ca0de8ef7f966f9e2015c1f766a403))
 
 
 ### Others 🔧

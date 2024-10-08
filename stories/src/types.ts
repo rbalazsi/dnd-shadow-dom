@@ -1,4 +1,4 @@
-import type { DraggableId, DraggableLocation } from '@hello-pangea/dnd';
+import type { DraggableId, DraggableLocation } from '@rbalazsi/dnd-shadow-dom';
 
 export type Id = string;
 

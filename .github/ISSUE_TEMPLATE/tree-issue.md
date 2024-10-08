@@ -6,4 +6,4 @@ labels: 'wontfix ☠️'
 
 Please head to the [`@atlaskit/tree` issue tracker](https://ecosystem.atlassian.net/servicedesk/customer/portal/24/create/236).
 
-We do not track `@atlaskit/tree` issues in the `@hello-pangea/dnd` project
+We do not track `@atlaskit/tree` issues in the `@rbalazsi/dnd-shadow-dom` project

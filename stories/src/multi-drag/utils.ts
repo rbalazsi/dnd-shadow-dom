@@ -1,4 +1,4 @@
-import type { DraggableLocation } from '@hello-pangea/dnd';
+import type { DraggableLocation } from '@rbalazsi/dnd-shadow-dom';
 import type { Column, ColumnMap, Entities } from './types';
 import type { Id } from '../types';
 import { invariant } from '../../../src/invariant';

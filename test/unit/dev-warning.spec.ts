@@ -17,7 +17,7 @@ it('should log a warning to the console', () => {
 });
 
 it('should not log a warning if warnings are disabled', () => {
-  window['__@hello-pangea/dnd-disable-dev-warnings'] = true;
+  window['__@rbalazsi/dnd-shadow-dom-disable-dev-warnings'] = true;
 
   warning('hey');
   warning('sup');
@@ -27,7 +27,7 @@ it('should not log a warning if warnings are disabled', () => {
 
   // re-enable
 
-  window['__@hello-pangea/dnd-disable-dev-warnings'] = false;
+  window['__@rbalazsi/dnd-shadow-dom-disable-dev-warnings'] = false;
 
   warning('hey');
 

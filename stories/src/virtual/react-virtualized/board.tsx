@@ -13,8 +13,8 @@ import type {
   DroppableProvided,
   DroppableStateSnapshot,
   DraggableRubric,
-} from '@hello-pangea/dnd';
-import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd';
+} from '@rbalazsi/dnd-shadow-dom';
+import { DragDropContext, Droppable, Draggable } from '@rbalazsi/dnd-shadow-dom';
 import type { QuoteMap, Quote } from '../../types';
 import Title from '../../primatives/title';
 import { reorderQuoteMap } from '../../reorder';

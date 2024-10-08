@@ -1,6 +1,6 @@
 import React, { Component, ReactElement } from 'react';
 import styled from '@emotion/styled';
-import { DragDropContext } from '@hello-pangea/dnd';
+import { DragDropContext } from '@rbalazsi/dnd-shadow-dom';
 import type {
   Announce,
   DragStart,
@@ -8,7 +8,7 @@ import type {
   DropResult,
   DraggableLocation,
   ResponderProvided,
-} from '@hello-pangea/dnd';
+} from '@rbalazsi/dnd-shadow-dom';
 import TaskList from './task-list';
 import initial from './data';
 import reorder from '../reorder';

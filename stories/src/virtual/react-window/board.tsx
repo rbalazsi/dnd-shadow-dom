@@ -14,7 +14,7 @@ import {
   DroppableProvided,
   DraggableRubric,
   DroppableStateSnapshot,
-} from '@hello-pangea/dnd';
+} from '@rbalazsi/dnd-shadow-dom';
 import type { QuoteMap, Quote } from '../../types';
 import Title from '../../primatives/title';
 import { reorderQuoteMap } from '../../reorder';

@@ -6,8 +6,8 @@ import type {
   PreDragActions,
   SnapDragActions,
   SensorAPI,
-} from '@hello-pangea/dnd';
-import { DragDropContext } from '@hello-pangea/dnd';
+} from '@rbalazsi/dnd-shadow-dom';
+import { DragDropContext } from '@rbalazsi/dnd-shadow-dom';
 import type { Quote } from '../types';
 import QuoteList from '../primatives/quote-list';
 import reorder from '../reorder';

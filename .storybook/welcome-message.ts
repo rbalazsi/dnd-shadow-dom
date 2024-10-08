@@ -25,7 +25,7 @@ function welcomeMessage(): void {
   );
 
   consoleTable([
-    ['@hello-pangea/dnd version', version],
+    ['@rbalazsi/dnd-shadow-dom version', version],
     ['react version', React.version],
     ['process.env.NODE_ENV', process.env.NODE_ENV],
   ]);

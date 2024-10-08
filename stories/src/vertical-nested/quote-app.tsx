@@ -1,8 +1,8 @@
 import React, { Component, ReactElement } from 'react';
 import styled from '@emotion/styled';
 import { colors } from '@atlaskit/theme';
-import { DragDropContext } from '@hello-pangea/dnd';
-import type { DropResult } from '@hello-pangea/dnd';
+import { DragDropContext } from '@rbalazsi/dnd-shadow-dom';
+import type { DropResult } from '@rbalazsi/dnd-shadow-dom';
 import { invariant } from '../../../src/invariant';
 import { grid } from '../constants';
 import QuoteList from './quote-list';

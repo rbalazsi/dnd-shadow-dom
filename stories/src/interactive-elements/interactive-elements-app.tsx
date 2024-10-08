@@ -2,12 +2,12 @@ import React, { ReactElement } from 'react';
 import type { ReactNode } from 'react';
 import styled from '@emotion/styled';
 import { colors } from '@atlaskit/theme';
-import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd';
+import { DragDropContext, Droppable, Draggable } from '@rbalazsi/dnd-shadow-dom';
 import type {
   DropResult,
   DroppableProvided,
   DraggableProvided,
-} from '@hello-pangea/dnd';
+} from '@rbalazsi/dnd-shadow-dom';
 import { grid } from '../constants';
 import reorder from '../reorder';
 

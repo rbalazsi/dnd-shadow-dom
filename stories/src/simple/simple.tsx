@@ -5,7 +5,7 @@ import {
   Draggable,
   DraggableStyle,
   DropResult,
-} from '@hello-pangea/dnd';
+} from '@rbalazsi/dnd-shadow-dom';
 
 // fake data generator
 const getItems = (count: number) =>

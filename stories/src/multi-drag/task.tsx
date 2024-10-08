@@ -7,11 +7,11 @@ import React, {
 } from 'react';
 import styled from '@emotion/styled';
 import { colors } from '@atlaskit/theme';
-import { Draggable } from '@hello-pangea/dnd';
+import { Draggable } from '@rbalazsi/dnd-shadow-dom';
 import type {
   DraggableProvided,
   DraggableStateSnapshot,
-} from '@hello-pangea/dnd';
+} from '@rbalazsi/dnd-shadow-dom';
 import { grid, borderRadius } from '../constants';
 import type { Id, Task as TaskType } from '../types';
 
