@@ -1,5 +1,30 @@
 
 
+## [17.0.1](https://github.com/rbalazsi/dnd-shadow-dom/compare/v17.0.0...v17.0.1) (2024-10-08)
+
+
+### Others 🔧
+
+* bump node to 20.17.0 ([7870160](https://github.com/rbalazsi/dnd-shadow-dom/commit/7870160ad010add62774a645b582525ca47c2980))
+* **dev-deps:** migrate eslint-plugin-node to eslint-plugin-n 17.10.2 ([52b6c85](https://github.com/rbalazsi/dnd-shadow-dom/commit/52b6c85af0d80c4f914513ce4f430093918f62cd))
+* **dev-deps:** update dependency @types/markdown-it to v14 ([a7d8275](https://github.com/rbalazsi/dnd-shadow-dom/commit/a7d8275de865f223cda40e73e5c75e381c7e3c4e))
+* **dev-deps:** update dependency express to v4.21.0 ([3123d9e](https://github.com/rbalazsi/dnd-shadow-dom/commit/3123d9e8edb7613c754519e732218e69823d212b))
+* **dev-deps:** update dependency lighthouse to v12 ([77f9488](https://github.com/rbalazsi/dnd-shadow-dom/commit/77f9488655f31b609f1854803d264560a09d8d15))
+* **renovate:** create an eslint group for major update ([bcdee0c](https://github.com/rbalazsi/dnd-shadow-dom/commit/bcdee0c10707e679b0b3137e8a701f10c6114ce7))
+
+
+### Docs 📃
+
+* add a security policy ([880926d](https://github.com/rbalazsi/dnd-shadow-dom/commit/880926d5b30f57cb1ab642e3735e7fe874c54944))
+* add star history ([77bec3f](https://github.com/rbalazsi/dnd-shadow-dom/commit/77bec3fe1fb67265a9c7fac915d78ff4ecd940c0))
+* remove out-of-date translated documentation from rbd ([777a086](https://github.com/rbalazsi/dnd-shadow-dom/commit/777a086149e13a568b1816d1467ebce84f2873ff))
+* **ssr:** remove documentation regarding resetServerContext ([d7628b1](https://github.com/rbalazsi/dnd-shadow-dom/commit/d7628b13d41ed88c737a19b649a43c2d62754d45))
+
+
+### Tests 🧪
+
+* **types:** fix markdown-it typings ([d461d56](https://github.com/rbalazsi/dnd-shadow-dom/commit/d461d56bf29d063f576359c938fa301acb9e8610))
+
 ## [17.0.0](https://github.com/hello-pangea/dnd/compare/v16.6.0...v17.0.0) (2024-09-14)
 
 
